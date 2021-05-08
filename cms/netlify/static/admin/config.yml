@@ -31,3 +31,13 @@ collections:
       - {label: "Name", name: "name", widget: "string"}
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Description", name: "description", widget: "markdown"}
+  - name: "funny"
+    label: "Funny"
+    folder: "content/funny"
+    create: true
+    slug: "{{slug}}"
+    identifier_field: name
+    fields:
+      - {label: "First name", name: "fname", widget: "string"}
+      - {label: "Last name", name: "lname", widget: "string"}
+      - {label: "Description", name: "description", widget: "markdown"}
